@@ -49,3 +49,54 @@ a {
     color: #000000;
     font-weight: bold;
 }
+
+@media screen and (max-width:640px) {
+    body {
+        background-color :rgb(201, 240, 255);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    h1 {
+        font-family: 微軟正黑體;
+        width: 70%;
+        margin: 40px auto 20px auto;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        border: 3px solid #837cc0;
+        color: darkslateblue;
+    }
+    
+    p {
+        text-align: center;
+        margin: 40px;
+    }
+    
+    ul {
+        width: 300px;
+        margin: 0 auto;
+        padding-right: 10px;
+        padding-left: 10px;
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    li {
+        margin-bottom: 20px;
+    }
+    
+    img {
+        border-radius: 50%;
+        width: 40%;
+    }
+    
+    a {
+        background-color: #cae3f8;
+        display: block;
+        padding: 20px 0;
+        border-radius: 5px;
+        color: #000000;
+        font-weight: bold;
+    }
+}
