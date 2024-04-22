@@ -1,0 +1,73 @@
+ul {
+    list-style-type: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header nav {
+    background-color: #364751;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+header nav ul {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+header nav ul li {
+    margin: 0 20px;
+}
+header nav ul li a {
+    font-weight: bold;
+    color: #fff;
+}
+header nav ul li a:hover{
+    text-decoration: underline double;
+}
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width:640px) {
+
+    main {
+        padding: 20px;
+        max-width: 800px;
+        margin: 20px 15px;
+        background-color: #fff;
+        border-radius: 5px;
+        opacity: 0.8;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        background-image: url("../img/Anping.JPG");
+        background-size: 150%;
+        background-repeat:repeat;
+        background-position-x: center;
+    }
+}
