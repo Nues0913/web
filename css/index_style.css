@@ -10,6 +10,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* nav */
 header nav {
     background-color: #364751;
     color: #fff;
@@ -32,10 +34,11 @@ header nav ul li a {
 header nav ul li a:hover{
     text-decoration: underline double;
 }
-main {
+
+.section {
     padding: 20px;
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 60%;
+    margin: 50px auto;
     background-color: #fff;
     border-radius: 5px;
     opacity: 0.8;
@@ -51,7 +54,6 @@ footer {
 }
 
 @media screen and (max-width:640px) {
-
     main {
         padding: 20px;
         max-width: 800px;
